@@ -3,14 +3,12 @@
 
 }
 nav div button{
-  border-radius: 100px;
+  border-radius: 10px;
   background-color: 181 178 178;
-  height: 30px;
-  width: 150px;
+  height: 40px;
+  width: 50px;
   cursor: pointer;
-  
 }
-
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,7 +23,6 @@ body {
 main {
   padding-bottom: 60px;
   padding-top: 30px;
-  
 }
 
 main h1{
@@ -54,7 +51,7 @@ nav{
   width: 100%;
   justify-content: space-around;
   padding: 1rem;
-  background-color: 	#E8C39E;
+  background-color: 	#efeeeee7;
   
 }
 
@@ -89,6 +86,28 @@ a img{
 }
 
 footer {
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.primerFooter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #df1010;
+
+}
+
+.segundoFooter {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -97,8 +116,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
-  background-color: #E8C39E;
-  
+
 }
 
 footer div{
@@ -115,7 +133,6 @@ footer > p{
   margin: 0;
   padding-top: 0.7rem;
 }
-
 form{
   display: flex;
   flex-direction: column;
@@ -124,6 +141,7 @@ form{
   height: 100px;
   margin: 0 auto;
 }
+
 
 .card{
   display: flex;
